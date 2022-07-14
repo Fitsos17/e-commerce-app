@@ -9,7 +9,7 @@ import CheckoutItem from "../../components/checkout-item/checkout-item.component
 import {
   selectCartItems,
   selectCartTotal,
-} from "../../store/cart/cart.selector.js";
+} from "../../store/cart/cart.selector";
 import { useSelector } from "react-redux/es/hooks/useSelector.js";
 
 const Checkout = () => {
