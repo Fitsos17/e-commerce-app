@@ -4,7 +4,7 @@ import {
   HeaderBlock,
   Total,
 } from "./checkout.styles.jsx";
-import PaymentForm from "../../components/payment-form/payment-form.component.jsx";
+import PaymentForm from "../../components/payment-form/payment-form.component.js";
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 import {
   selectCartItems,
