@@ -2,7 +2,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
 import { useDispatch } from "react-redux/es/exports";
 
 import FormInput from "../form-input/form-input.component";
-import { SignInContainer, ButtonsContainer } from "./sign-in-form.styles.jsx";
+import { SignInContainer, ButtonsContainer } from "./sign-in-form.styles";
 import Button, { BUTTON_TYPES_CLASSES } from "../button/button.component";
 import {
   googleSignInStart,

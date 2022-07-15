@@ -3,8 +3,8 @@ import {
   CheckoutHeader,
   HeaderBlock,
   Total,
-} from "./checkout.styles.jsx";
-import PaymentForm from "../../components/payment-form/payment-form.component.js";
+} from "./checkout.styles";
+import PaymentForm from "../../components/payment-form/payment-form.component";
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 import {
   selectCartItems,
