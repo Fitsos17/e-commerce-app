@@ -1,4 +1,11 @@
 import styled from "styled-components";
+export const Footer = styled.div`
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+`;
 
 export const ProductCardContainer = styled.div`
   width: 100%;
@@ -33,14 +40,26 @@ export const ProductCardContainer = styled.div`
       display: flex;
     }
   }
-`;
 
-export const Footer = styled.div`
-  width: 100%;
-  height: 5%;
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
+  @media screen and (max-width: 800px) {
+    width: 43vw;
+    overflow: hidden;
+
+    &:hover {
+      img {
+        opacity: unset;
+      }
+
+      button {
+        opacity: unset;
+      }
+    }
+
+    ${Footer} {
+      font-size: 1rem;
+      width: 70%;
+    }
+  }
 `;
 
 export const Name = styled.span`
